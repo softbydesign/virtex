@@ -1,0 +1,9 @@
+virtex:
+  version: 1.0
+  server:
+    host: localhost
+    port: 9080
+    libvirt-connection:
+      scheme: qemu+tcp
+      host: workstation
+      port: 16509
